@@ -1,0 +1,22 @@
+{
+    "name": "webdevsega/yii2-select2-widget",
+    "description": "Select2 widget for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "extension", "select2", "widget"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Smirnov Sergey",
+            "email": "webdevsega@yandex.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/select2": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "webdevsega\\select2\\": ""
+        }
+    }
+}
